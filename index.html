@@ -1,0 +1,56 @@
+<html>
+    <body );
+	background-position: center;
+	background-size: cover;"">
+        <center>
+        <h1>BMW</h1>
+        <canvas id="canvas" width="700" height="600"></canvas>
+        </center>
+    </body>
+    <script>
+var canvas=document.getElementById("canvas");
+var ctx=canvas.getContext("2d");
+var color1="blue";
+
+var color2="red";
+
+var color3="green";
+
+var color4="yellow";
+
+var color5="purple"
+
+ctx.beginPath();
+ctx.strokeStyle=color2;
+ctx.lineWidth=2;
+ctx.arc(200,200,40,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle=color1;
+ctx.lineWidth=2;
+ctx.arc(250,200,40,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle=color3;
+ctx.lineWidth=2;
+ctx.arc(300,200,40,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle=color4;
+ctx.lineWidth=2;
+ctx.arc(270,250,40,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle=color5;
+ctx.lineWidth=2;
+ctx.arc(240,250,40,0,2*Math.PI);
+ctx.stroke();
+
+
+canvas.addEventListener("mousedown",my_mousedown);
+    </script>
+</html>
